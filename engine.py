@@ -2,10 +2,6 @@ from datetime import datetime
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-# ============================================================
-# App
-# ============================================================
-
 app = FastAPI(
     title="PortEngine",
     version="1.0.0",

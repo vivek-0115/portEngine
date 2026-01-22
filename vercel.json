@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "./engine.py",
+      "src": "engine.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "./engine.py"
+      "dest": "engine.py"
     }
   ]
 }
