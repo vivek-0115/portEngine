@@ -27,3 +27,6 @@ def health():
         "status": "healthy",
         "time": datetime.utcnow().isoformat() + "Z"
     }
+
+from interestCalculator import router as interest_calculator
+app.include_router(interest_calculator)
